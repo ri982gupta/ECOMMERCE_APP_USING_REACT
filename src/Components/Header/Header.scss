@@ -1,0 +1,81 @@
+// Header.scss
+.header {
+    position: fixed; /* Fix the navbar at the top of the viewport */
+    top: 0; /* Position it at the top of the viewport */
+    left: 0; /* Align it to the left side of the viewport */
+    width: 100%; /* Make the header span the full width of the viewport */
+    // background-color: rgb(56, 53, 53);
+    color: white;
+    padding: 20px 0; /* Adjust padding as needed */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    display: flex; /* Use flexbox to align items */
+    // justify-content: space-between; /* Align items to the start and end of the container */
+    align-items: center; /* Vertically center items */
+    flex-direction: column;
+  }
+
+  .title-container {
+    flex: 1; /* Take up remaining space */
+    background-color: #333;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .nav-container {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    justify-content: center; /* Align navigation links to the right */
+    // background-color: black;
+    width: 100%;
+    
+  }
+  
+  .title-container h1 {
+    margin: 0;
+    padding: 10px;
+  }
+  
+
+
+
+  // .title {
+  //   margin: 0;
+  //   padding: 10px;
+  // }
+  
+  // .content {
+  //   margin-top: 60px; /* Add margin to the content to prevent it from being covered by the fixed header */
+  // }
+  
+  
+  .header h1 {
+    margin: 0; // Remove default margin for h1
+    padding: 10px; // Remove default padding for h1
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 10px; /* Add margin-top to space out the navbar from the e-commerce text */
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
